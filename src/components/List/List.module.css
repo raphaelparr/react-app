@@ -1,0 +1,32 @@
+
+
+.container {
+    padding: 20px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: warp;
+    justify-content: space-between;
+}
+
+.theDate {
+    font-size: 1.5em;
+    padding-bottom: 0.2em;
+    padding-left: 0.5em;
+    color: green;
+}
+
+.lines {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.lines > div {
+    flex-basis: 10em;
+}
+
+.ticker {
+    color: red;
+}
